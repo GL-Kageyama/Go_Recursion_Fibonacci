@@ -1,8 +1,11 @@
 # Go Recursion Fibonacci
 
 ## Recursion
+A process that calls itself again within a process.  
 
 ## Fibonacci Number
+A number formed by adding two previous terms and one previous term together.  
+A mathematical regularity, often found in nature.  
 
 ## Code
 ```Go
