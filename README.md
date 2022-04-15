@@ -21,7 +21,7 @@ A mathematical regularity, often found in nature.
 		go func() {
 			// Reservation to close the channel
 			defer close(result)
-			// 2, then necessarily 1
+			// If less than 2, necessarily 1
 			if n <= 2 {
 				result <- 1
 				return
