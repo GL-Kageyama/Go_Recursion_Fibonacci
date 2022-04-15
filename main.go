@@ -24,11 +24,11 @@ func main() {
 				result <- 1
 				return
 			}
-			// Find the [n-1] Fibonacci number by recursion
+			// Find [n-1] by recursion
 			f1 := <-fibonacci(n-1)
-			// Find the [n-2] Fibonacci number by recursion
+			// Find [n-2] by recursion
 			f2 := <-fibonacci(n-2)
-			// Add the [n-1] and [n-2]
+			// Add the [n-1] and [n-2] numbers to obtain the Fibonacci number
 			result <- f1 + f2
 		}()
 
