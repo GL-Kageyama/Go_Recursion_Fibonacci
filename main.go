@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-// メイン関数
+// Main function
 func main() {
 
 	var fibonacci func(n int) <-chan int
